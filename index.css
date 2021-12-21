@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.4em;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+p {
+  margin: 15px;
+}
+
+.part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+#cat {
+  margin: 5px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+img {
+  display: block;
+  margin: 10px auto;
+  max-width: 70vw;
+  max-height: 70vh;
+}
+
+@media (max-width: 900px) {
+  .part {
+    flex-direction: column;
+  }
+  img {
+    max-width: 90vw;
+    max-height: 90vh;
+  }
+}
