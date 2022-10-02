@@ -5,9 +5,9 @@ function Home() {
   return (
     <motion.div
       className="home"
-      initial={{ opacity: 0 }}
+      initial={{ opacity: 1 }}
       animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      exit={{ opacity: 1 }}
     >
       <div className="home d-flex flex-column align-items-center mx-auto container-fluid w-100 h-100">
         <div className="d-flex flex-row">
