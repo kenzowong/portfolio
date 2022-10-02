@@ -1,64 +1,16 @@
-import './index.css';
-import Navbar from './navbar';
-import Welcome from './Welcome';
-import Sample from './sample';
-import React from 'react';
-import Demo from './sample/demo';
-import {
-  BrowserRouter as Router,
-  Route,
-  Link
-} from "react-router-dom";
-import { Routes } from 'react-router-dom';
-
-
-
-function Home() {
-  return <h2>Home</h2>;
-}
-
-function About() {
-  return <h2>About</h2>;
-}
-
-function Users() {
-  return <h2>Users</h2>;
-}
-
-
+import "./index.css";
+import Navbar from "./components/Navbar";
+import AnimatedRoutes from "./components/AnimatedRoutes";
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <Router>
-
-      <div>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/sample">Sample</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <Routes>
-            <Route element={<Navbar />} />
-        </Routes>
-      </div>
-
+    <Router>
       <Navbar />
-        <Welcome />
-        <Demo />
-        </Router>
-  </>
+      <AnimatedRoutes />
+    </Router>
   );
 }
-
 
 export default App;

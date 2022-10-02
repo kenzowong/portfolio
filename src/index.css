@@ -1,16 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
 body {
-  height: 100vh;
-  font-family: "Roboto";
-  background-color: #e9ecef;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0%;
+  margin: 0;
+  padding: 0;
+  background-color: #2C3333;
+  /* background-color: #f1f1ef; */
+  color: #E7F6F2;
+}
+
+.centered-contact {
+  display: flex;
+  justify-content: center;
+}
+
+
+.home-intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-blurb {
+  margin-top: 30px;
+}
+
+.highlight {
+  color: #FFC4C4;
+}
+
+.highlight-white {
+  color: whitesmoke;
+}
+.highlight-name {
+  color: lightskyblue;
+}
+.highlight-city {
+  color: lightcoral;
+}
+
+.home-blurb {
+  display: flex;
+  align-content: flex-start;
+}
+
+
+.carousel-images-fixed {
+  max-width: 100%;
+  max-height: 300px;
 }
 
 #contact {
-  display: flex;
-  align-items: center;
-  border: 1px solid black;
+  border: 1px solid lightblue;
   padding: 0px;
   margin: 0px;
   border-radius: 10px;
+  max-width: fit-content;
 }
 
 #contact li {
@@ -19,6 +67,8 @@ body {
 }
 
 #contact-list {
+  display: flex;
+  justify-content: center;
   padding: 1px;
   margin: 3px;
 }
@@ -29,25 +79,143 @@ body {
 .navbar {
   display: flex;
   flex-direction: column;
-  align-items: end;
-  width: 90%;
-  border-bottom: 1px solid #212529;
-  margin-bottom: 0.1rem;
+  justify-content: center;
+  width: 100%;
+  background-color: #222831;
+  margin-top: 0px;
+  font-family: "Roboto";
 }
-.flex-centered {
+
+.navbar a, .navbar a:visited, .navbar a:active {
+  color: #A5C9CA;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.icon a {
+  color: royalblue;
+  text-decoration-line: none;
+}
+.icon a:hover {
+  color: lightblue;
+}
+
+.project-pictures {
+  width: 100%;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.project-pictures-title {
+  padding-top: 2px;
   display: flex;
   justify-content: center;
+}
+
+.project-description-title{
+  padding-top: 2px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.home {
+  padding-top: 25px;
+}
+
+.campfinder{
+  padding: 25px;
+  background-color: black;
+}
+
+
+.carousel {
+  display: flex;
+  /* justify-content: center; */
   align-items: center;
+  height: 350px;
+  object-fit: cover;
 }
 
-.navbar a {
-  color: #212529;
+.carouselDiv > div > div > button {
+  background-color: green !important;
+  border-radius: 50% !important;
+  height: 12px !important;
+  width: 12px !important;
 }
 
-.navbar a:hover {
-  color: red;
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (max-width: 575px) {
+
 }
 
-.icon:hover {
-  color: red;
+/* 
+@media screen and (max-width: 625px) {
+  .carousel-images-fixed {
+    height: 73%;
+    width: 83%;
+  }
 }
+@media screen and (max-width: 675px) {
+  .carousel-images-fixed {
+    height: 76%;
+    width: 86%;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .carousel-images-fixed {
+    height: 79%;
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .carousel-images-fixed {
+    height: 82%;
+    width: 91%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .carousel-images-fixed {
+    height: 85%;
+    width: 93%;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .carousel-images-fixed {
+    height: 88%;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .carousel-images-fixed {
+    height: 91%;
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 1060px) {
+  .carousel-images-fixed {
+    height: 93rem;
+    width: 99rem;
+  }
+}
+
+
+@media screen and (max-width: 1150px) {
+  .carousel-images-fixed {
+    height: 95rem;
+    width: 100rem;
+  }
+} */
