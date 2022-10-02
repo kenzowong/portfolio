@@ -21,15 +21,14 @@ function About() {
                 English in China and traveling around in Asia, I attended
                 Fullstack Academy for their software engineering bootcamp, but
                 withdrew about halfway. It was my first time using Javascript,
-                and back-end development in general. It was a great experience,
-                and I really enjoyed working with React, PostgreSQL and using
-                tools such as Mapbox and WebSockets.
+                and back-end development in general, so things fell through. It
+                was still a great experience, and I really enjoyed working with
+                React, PostgreSQL and using tools such as Mapbox and WebSockets.
               </p>
               <p>
-                After leaving the bootcamp, due to finances, I took a job at
-                Ichiran ramen for a few months, and then as a waiter for nearly
-                2 years during the pandemic. Looking to go from serving ramen to
-                serving code!
+                After leaving the bootcamp, I took a job at Ichiran ramen for a
+                few months, and then as a waiter for nearly 2 years during the
+                pandemic. Looking to go from serving ramen to serving code!
               </p>
               <p>
                 At the end of September 2022, I finished "The Web Developer
@@ -46,7 +45,8 @@ function About() {
                 Currently, I'm working on my portfolio, creating projects, and
                 taking another course on React. I'm also looking to also add
                 Typescript, TailwindCSS, and C#. I know that there is much to
-                learn, bugs to fix, and code to optimize, but I'm having a lot of fun on this journey!
+                learn, bugs to fix, and code to optimize, but I'm having a lot
+                of fun on this journey!
               </p>
               <p>Let's chat!</p>
 

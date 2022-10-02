@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #2C3333;
-  /* background-color: #f1f1ef; */
   color: #E7F6F2;
 }
 
@@ -32,9 +31,6 @@ body {
   color: #FFC4C4;
 }
 
-.highlight-white {
-  color: whitesmoke;
-}
 .highlight-name {
   color: lightskyblue;
 }
@@ -157,65 +153,3 @@ body {
 @media screen and (max-width: 575px) {
 
 }
-
-/* 
-@media screen and (max-width: 625px) {
-  .carousel-images-fixed {
-    height: 73%;
-    width: 83%;
-  }
-}
-@media screen and (max-width: 675px) {
-  .carousel-images-fixed {
-    height: 76%;
-    width: 86%;
-  }
-}
-
-@media screen and (max-width: 725px) {
-  .carousel-images-fixed {
-    height: 79%;
-    width: 88%;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .carousel-images-fixed {
-    height: 82%;
-    width: 91%;
-  }
-}
-@media screen and (max-width: 850px) {
-  .carousel-images-fixed {
-    height: 85%;
-    width: 93%;
-  }
-}
-
-@media screen and (max-width: 930px) {
-  .carousel-images-fixed {
-    height: 88%;
-    width: 95%;
-  }
-}
-@media screen and (max-width: 1000px) {
-  .carousel-images-fixed {
-    height: 91%;
-    width: 97%;
-  }
-}
-
-@media screen and (max-width: 1060px) {
-  .carousel-images-fixed {
-    height: 93rem;
-    width: 99rem;
-  }
-}
-
-
-@media screen and (max-width: 1150px) {
-  .carousel-images-fixed {
-    height: 95rem;
-    width: 100rem;
-  }
-} */

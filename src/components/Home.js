@@ -30,7 +30,7 @@ function Home() {
                   <p>
                     Express, NodeJS, MongoDB, Mongoose, PostgreSQL, Sequelize
                   </p>
-                  <p>Git, Github, Mapbox, Websockets</p>
+                  <p>Git, Github, Mapbox, WebSockets</p>
                 </div>
                 <div></div>
               </div>
